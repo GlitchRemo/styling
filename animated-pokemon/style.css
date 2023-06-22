@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+}
+
+.page {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  padding-top: 100px;
+  background-image: url(https://st2.depositphotos.com/3213441/12022/v/950/depositphotos_120226446-stock-illustration-pokemon-go-pokeball-seamless-texture.jpg);
+}
+
+.image-container {
+  height: 500px;
+  aspect-ratio: 1;
+  border: 1px solid white;
+  margin: 0 auto;
+  background-image: url(https://media.istockphoto.com/id/1236824686/vector/abstract-white-square-shape-with-futuristic-concept-background-space-for-your-design.jpg?s=612x612&w=0&k=20&c=KTnnHX0TUbRKVXZY7rqNGdVy2j-NOiQW84zxgn9iNFE=);
+}
+
+.dinosaur {
+  height: 100%;
+  width: 100%;
+  background: url(https://pokemonletsgo.pokemon.com/assets/img/common/char-pikachu.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.dinosaur:hover {
+  height: 100%;
+  width: 100%;
+  background: url(https://upload.wikimedia.org/wikipedia/en/a/a6/Pok%C3%A9mon_Pikachu_art.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
